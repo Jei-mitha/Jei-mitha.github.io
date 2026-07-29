@@ -1,1 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+section {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.intro-section {
+  background: #eafaf1;
+  padding: 60px;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-pic {
+  width: 220px;
+  border-radius: 50%;
+  border: 3px solid #4CAF50;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.buttons .btn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.buttons .btn:hover {
+  background: #45a049;
+}
+
+.stats-section {
+  background: #f0f9f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.stat-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 150px;
+}
+
+.stat-box h3 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin: 0;
+}
+
+.stat-box p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .intro-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 
