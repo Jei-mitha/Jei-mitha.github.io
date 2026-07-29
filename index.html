@@ -79,12 +79,18 @@
     content:"";display:inline-block;width:22px;height:1px;background:var(--amber);
   }
   h1.title{
-    font-size:clamp(38px,7vw,76px);
-    font-weight:700;line-height:1.03;
+    font-size:clamp(52px,10vw,110px);
+    font-weight:700;line-height:1.0;
     letter-spacing:-0.02em;
     max-width:900px;
   }
   h1.title .accent{color:var(--amber);}
+  .hero-tagline{
+    margin-top:16px;
+    font-size:17px;letter-spacing:.12em;
+    color:var(--paper);
+    text-transform:uppercase;
+  }
   .subtitle{
     margin-top:22px;
     font-family:'JetBrains Mono',monospace;
@@ -232,9 +238,11 @@
 
 <div class="hero">
   <div class="sheet-label">PORTFOLIO — ELECTRONICS &amp; INSTRUMENTATION ENGINEERING</div>
-  <h1 class="title">Bridging <span class="accent">Hardware</span><br>&amp; Intelligence.</h1>
-  <p class="subtitle mono">Analog circuits, AFE layout design, and machine learning —
-    designed, simulated, and soldered by J. Jeimitha, Trichy, India.</p>
+  <h1 class="title">J. <span class="accent">Jeimitha</span></h1>
+  <p class="hero-tagline mono">Bridging Hardware &amp; Intelligence</p>
+  <p class="subtitle mono">Designing AFE layouts for battery management systems,
+    prototyping power-electronics circuits on hardware, and training machine
+    learning models — moving fluidly between analog design and AI.</p>
 
   <div class="hero-meta">
     <div><div class="k">DISCIPLINE</div><div class="v">EIE — 3rd Year</div></div>
@@ -258,11 +266,21 @@
     <span class="tag">CAREER OBJECTIVE</span>
   </div>
   <div class="about-grid">
+    <p style="font-size:17px;color:var(--paper);margin-bottom:18px;">
+      Hi, I'm Jeimitha — a 3rd-year Electronics &amp; Instrumentation Engineering
+      student at Government College of Technology, currently holding a CGPA of
+      9.5. I'm based in Trichy, Tamil Nadu.
+    </p>
     <p>A versatile and self-driven engineering student who enjoys stepping across
       disciplines — from analog circuit and layout design to machine learning and
       embedded systems. Comfortable moving between hardware and software, I look
       forward to applying this range of skills to real-world problems and
       collaborating with professionals across fields.</p>
+    <p style="margin-top:18px;">
+      Outside the lab, I'm also a keyboardist, an artist, and someone who
+      writes poetry in her spare time — I'm graduate-level trained in rapid
+      calculation through Abacus, and I write about my journey on my blog.
+    </p>
     <p class="mono" style="margin-top:18px;font-size:13px;color:var(--paper-dim);">
       SRV Public School, Samayapuram — 12th Grade (2023-2024): 95.4% · 10th Grade (2021-2022): 96.8%
     </p>
